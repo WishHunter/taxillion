@@ -17,6 +17,15 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; }
 
+.icon-vk:before {
+  content: "\e902"; }
+
+.icon-telegram:before {
+  content: "\e903"; }
+
+.icon-viber:before {
+  content: "\e904"; }
+
 .icon-shevron-left:before {
   content: "\e900"; }
 
@@ -46,7 +55,7 @@ a {
 h2 {
   font-size: 2rem;
   font-weight: 600;
-  margin-bottom: 100px;
+  margin-bottom: 60px;
   text-align: center; }
 
 header {
@@ -148,7 +157,7 @@ main .section_1 {
           -ms-flex-pack: center;
               justify-content: center;
       text-align: center;
-      margin-bottom: 70px; }
+      margin-bottom: 40px; }
     main .section_1 .links_block a:last-of-type {
       margin-bottom: 0; }
     main .section_1 .links_block:hover a {
@@ -215,7 +224,7 @@ main .section_1 {
 
 main .section_2 {
   position: relative;
-  padding: 70px 0 200px;
+  padding: 60px 0 150px;
   background-color: #f0f0f0;
   overflow: hidden; }
   main .section_2 .background .block {
@@ -236,7 +245,7 @@ main .section_2 {
     display: flex; }
   main .section_2 .background .right_blocks {
     position: absolute;
-    bottom: 70px;
+    bottom: 30px;
     right: -30px;
     display: -webkit-box;
     display: -webkit-flex;
@@ -368,12 +377,12 @@ main .section_4 {
         color: #e6b200;
         font-weight: 800; }
       main .section_4 ul li a.social {
-        width: 1.25rem;
-        height: 1.25rem;
+        width: 1.8rem;
+        height: 1.8rem;
         border-radius: 5px;
         background-color: #e6b200;
         color: #fff;
-        font-size: 1rem;
+        font-size: 1.3rem;
         line-height: 1;
         display: -webkit-inline-box;
         display: -webkit-inline-flex;
@@ -388,7 +397,10 @@ main .section_4 {
             -ms-flex-pack: center;
                 justify-content: center;
         text-align: center;
-        margin-right: 10px; }
+        margin-right: 10px;
+        vertical-align: middle; }
+      main .section_4 ul li a.social:hover {
+        text-decoration: none; }
 
 footer {
   background-color: #000;
@@ -676,7 +688,7 @@ footer {
         -ms-transform: none;
             transform: none; }
   main .section_2 .slider .slide {
-    margin: 0 50px; }
+    margin: 0 10px; }
   main .section_2 .slider .slick-next, main .section_2 .slider .slick-prev {
     opacity: 1; }
   main .section_3 {

@@ -18,6 +18,15 @@
 	-webkit-font-smoothing: antialiased
 	-moz-osx-font-smoothing: grayscale
 
+.icon-vk:before 
+	content: "\e902"
+
+.icon-telegram:before 
+	content: "\e903"
+
+.icon-viber:before 
+	content: "\e904"
+
 .icon-shevron-left:before
 	content: "\e900"
 
@@ -47,7 +56,7 @@ a
 h2
 	font-size: 2rem
 	font-weight: 600
-	margin-bottom: 100px
+	margin-bottom: 60px
 	text-align: center
 
 header
@@ -120,7 +129,7 @@ main
 				align-items: center
 				justify-content: center
 				text-align: center
-				margin-bottom: 70px
+				margin-bottom: 40px
 			a:last-of-type
 				margin-bottom: 0
 			&:hover
@@ -179,7 +188,7 @@ main
 						width: 0
 	.section_2
 		position: relative
-		padding: 70px 0 200px
+		padding: 60px 0 150px
 		background-color: rgb(240, 240, 240)
 		overflow: hidden
 		.background
@@ -196,7 +205,7 @@ main
 				display: flex
 			.right_blocks
 				position: absolute
-				bottom: 70px
+				bottom: 30px
 				right: -30px
 				display: flex
 		.main_block
@@ -318,18 +327,21 @@ main
 					color: $color_main
 					font-weight: 800
 				a.social
-					width: 1.25rem
-					height: 1.25rem
+					width: 1.8rem
+					height: 1.8rem
 					border-radius: 5px
 					background-color: $color_main
 					color: #fff
-					font-size: 1rem
+					font-size: 1.3rem
 					line-height: 1
 					display: inline-flex
 					align-items: center
 					justify-content: center
 					text-align: center	
 					margin-right: 10px
+					vertical-align: middle
+				a.social:hover
+					text-decoration: none
 
 footer
 	background-color: #000
@@ -567,7 +579,7 @@ footer
 				.slide:nth-of-type(even), .slide:nth-of-type(odd)
 					transform: none
 				.slide
-					margin: 0 50px
+					margin: 0 10px
 				.slick-next, .slick-prev
 					opacity: 1
 		.section_3 
